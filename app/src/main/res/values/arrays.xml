@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:name="http://schemas.android.com/tools">
+    <string-array name="horarioInicio">
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+    </string-array>
+    <string-array name="repeticao">
+        <item>Nenhuma</item>
+        <item>Diaria</item>
+        <item>Semanal</item>
+        <item>Mensal</item>
+        <item>Semestral</item>
+    </string-array>
+    <string-array name="horarioFim">
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+    </string-array>
+    <string-array name="laboratorio">
+        <item>Lab 1</item>
+        <item>Lab 2</item>
+        <item>Lab 3</item>
+    </string-array>
+</resources>

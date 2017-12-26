@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/mo">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_tela_calendario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.gamepc.agendamento3.tela_menu">
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="Consultar Calendário"
+            android:layout_gravity="center"
+            android:layout_marginTop="75dp"
+            android:id="@+id/menu_consultar"
+            style="@android:style/Widget.Button"
+            android:elevation="0dp" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Fazer Reserva"
+            android:layout_marginTop="40dp"
+            android:id="@+id/menu_fazerReserva"
+            style="@android:style/Widget.Button" />
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Agendar por QR"
+            android:onClick="onClick"
+            android:id="@+id/menu_qr"
+            style="@android:style/Widget.Button" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Sair"
+            android:id="@+id/menu_voltar"
+            style="@android:style/Widget.Button" />
+    </LinearLayout>
+</ScrollView>
